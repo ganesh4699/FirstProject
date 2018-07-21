@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>This is my first Title</title>
+    <link rel = "stylesheet" href="{%static "css/mystyle.css"%}"/>
+</head>
+<body>
+<h1>Hi!! Welcome to the innovation with python training.</h1>
+<h2>Here I am going to Introduce a special Person</h2>
+<h3>Guido Van Rossum--Python Developer</h3>
+<p>Van Rossum was born and raised in the Netherlands, where he received a master's degree in mathematics and computer science from the University of Amsterdam in 1982. He has a brother, Just van Rossum, who is a type designer and programmer who designed the typeface used in the "Python Powered" logo.
+Guido lives in Belmont, California, with his wife, Kim Knapp, and their son.</p>
+{{ use_me }}
+<img src = "{%static "images/guido.jpg"%}" alt ="OOPS!!!! You have given a wrong path-Please check the path once again" >
+</body>
+</html>
